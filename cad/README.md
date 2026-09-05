@@ -1,1 +1,1 @@
-
+hello there, readers! so this is a readme file i made for the cad files. there must be 6 files, 1 of them is the design of the robot, the second one is a png of it and theres 4  more files ( 2 step and 2 stl files) those 4 files are the 3d design of the impeller and the bracket of it (i made them in fusion 360) i hope this will work so i can get my funds for this project! see you!

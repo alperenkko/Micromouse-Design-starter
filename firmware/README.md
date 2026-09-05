@@ -1,1 +1,1 @@
-
+Hello reader!  this is a readme file for the /firmware. theres no files except this one in the /firmware folder because the robot is in the designing progress and it still has no parts. i have the designs  at the other files. i put this file to say that theres no code. but i will code it once i get my hands on the parts. thanks for reading!

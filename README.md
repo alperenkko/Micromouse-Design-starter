@@ -5,3 +5,4 @@ and i like designing this type of projects. i used AI and my teachers help to de
 it uses floodfill algorithm and some PID to   track the maze and find the exit. it has encodersa and gyroscope sensor. i will update on day2, thats all today,
 i hope i will be able to build it and get my hands on the parts.
 day2: i designed a cad of the robot and im going to upload it in here right now. there wont be any pcb files or firmware because this is a basic robot that i will just use cables and some proto board.so there will be just the cad file, bom.csv and this readme file.
+day3: I made the stl files for the impeller and the bracket of it. im happy i learned fusion 360 in just 1 day (atleast i can use it eh ) well now i ıuploaded them and i put them in a folder named cad

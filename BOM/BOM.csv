@@ -1,0 +1,15 @@
+Item Name;Quantity;Price (total) (USD);Item Link
+STM32 BLACKPILL controller board;1; $7,50 ;https://www.robiduck.com/urun/stm32f411ceu6-black-pill-100mhz-512kb-gelistirme-karti
+TB6612FNG dual motor driver board ;2; $4,80 ;https://www.robocombo.com/tb6612fng-cift-motor-surucu-karti
+12mm 2000rpm encoder motor N20;2; $23,80 ;https://www.robotzade.com/urun/novamax-enkoderli-6v-2000rpm-mikro-dc-motor
+jsumo 2114 (21x14mm) silicone wheel set;1; $9,51 ;https://www.robotus.net/js2114-silikon-tekerlek-seti
+jsumo 2114 silicone wheel silicones (x2 in the set);1; $7,90 ;https://www.robotus.net/silikon-disi-js2114-1-cift
+LSM6DS3 Accelerometer and Gyroscope Sensor Module;1; $3,10 ;https://www.robocombo.com/lsm6ds3-ivmeolcer-ve-jiroskop-sensor-modulu-4617
+QTR-1A color sensor module;1; $9,90 ;https://www.direnc.net/qtr-1rc-kizilotesi-dijital-sensor-paketi--2-adet-pololu?language=tr&h=363482f6
+Profuse 3s 450mah battery ;1; $27,00 ;https://www.motorobit.com/111v-3s-450mah-40c-lipo-battery
+Mini360 2A voltage regulator;2; $5,00 ;https://www.robotistan.com/2a-mini-ayarlanabilir-voltaj-dusurucu-regulator-karti?language=tr&h=ed713a74
+jumper set for connecting the components;1; $6,00 ;https://www.robocombo.com/jumper-seti
+720 coreless drone motor  (4 motors in the set);1; $5,00 ;https://www.robocombo.com/720-cekirdeksiz-mikro-drone-motoru-2-cift-cwccw-4046
+SOP8/SOIC8/DIP8  adapter ;7; $3,90 ;https://www.robotistan.com/sop8-soic8-dip8-smd-donusturucu-karti?language=tr&h=edb863bf
+ IR sensor components (BOM_ozdisan.csv);1; $16,01 ;there is another BOM file in the github repository. Take a look at it!
+TOTAL amount requested:;;129.42 USD;

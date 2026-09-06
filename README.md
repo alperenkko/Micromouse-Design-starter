@@ -1,3 +1,4 @@
+![Micromouse CAD Preview](cad/micromice_lightning_CAD.png)
 The Micromouse is a robot that uses advanced algorithms such as floodfilling and PID to find the exit of a maze. it can turn exact 90 degrees to turn the corners, smooth the path, know where is it at, find the most efficient way etc. it uses a gyroscope and 5/6 sensors to track the walls of the maze and make exact turns. ıt can also center itself between the walls and slow down or  get faster depending on  how much way to go. thats all i can tell and do right now :) 
 
 So this is day 1 of me trying to get funding for the project im working on for about 2 months. i am a 11th grade highschool student at turkey 

@@ -1,23 +1,23 @@
-# ⚡ Micromouse - Autonomous Maze Solving Robot
+# Micromouse - Autonomous Maze Solving Robot
 
 An autonomous Micromouse robot capable of navigating and solving a maze with high speed and efficiency with custom 3D-printed suction components.
 
 ![Micromouse CAD Preview](cad/micromice_lightning.png)
 ---
 
-## 🎯 Motivation & Project Goal
-I am an 11th-grade student at a Turkish high school with interests in robotics, embedded systems and PCB design. I created this project over the course of the past two months to expand my knowledge of control systems, algorithms, and my own custom hardware design capabilities. My goal is to design and fabricate a high-performance Micromouse robot that is capable of competing against the fastest Maze Solving Robots with the help of suction assistance, and optimized algorithms.
+## Motivation & Project Goal
+I am an 11th-grade student at a Turkish high school with interests in robotics and PCB design. I created this project over the course of the past three months to test my knowledge of control systems, algorithms, and my own custom hardware design capabilities. My goal is to design and make a high-performance Micromouse robot that is capable of competing against the fastest Maze Solving Robots with the help of suction assistance, and optimized algorithms.
 ---
 
-## 🚀 Features & Technical Overview
+## Features & Technical Overview
 Autonomous Navigation: Implemented the Floodfill Algorithm for calculating the shortest maze path
-Closed-Loop Control: PID control with quadrature encoders and 6-axis gyroscope for precise wall centering and 90-degree turns.
-Custom Sensing: Integrated 5 custom IR sensor modules for distance calculation and wall tracking
-Aerodynamic Suction: Custom 3D-printed impeller and mount (designed in Fusion 360) to create additional downforce and maximize cornering
-Brain: STM32 Microcontroller for sensor data acquisition and motor control
+Closed-Loop Control: PID control with motor encoders and 6-axis gyroscope for precise wall centering and 90-degree turns.
+Custom Sensing: Integrated 6 custom IR sensor modules for distance calculation and wall tracking(check kicad file)
+Aerodynamic Suction: Custom 3D-printed impeller and mount (designed in Fusion 360) to create additional downforce
+Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor control
 ---
 
-## 🛠️ Hardware & PCB Design
+## Hardware & PCB Design
 
 The image below shows the layout of the custom PCB designed in KiCad:
 
@@ -26,22 +26,15 @@ The image below shows the layout of the custom PCB designed in KiCad:
 If you are viewing this repo directly, please replace this text with a screenshot preview of your PCB layout/schematic!
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 `/cad` contains all STL files (chassis, impeller, and motor mounts)
 `/pcb` contains the KiCad schematic and PCB board file.
 `/firmware` contains the STM32 source-code for PID motor control, IR sensing and the Floodfill algorithm.
 ---
 
-## 📊 Bill of Materials (BOM)
+## Bill of Materials (BOM)
+[BOM.csv](bom/BOM.csv) - The main BOM file
+[BOM.csv](bom/BOM_ozdisan.csv)  - The BOM file for the custom IR sensor
+[BOM.csv](bom/BOM_ozdisan.pdf)  - The pdf version of the IR sensor file.(downloaded from the website, its raw and half turkish.)
 
-| Material | Description | Quantity | Est. Unit Price ($) |
-| :--- | :--- | :---: | :---: |
-| STM32 Controller | STM32 Microcontroller Board | 1 | $4.50 |
-| Custom IR Array | Custom Infrared Sensors (TCRT5000 / Op-Amps) | 5 | $3.00 |
-| N20 Motors | DC Gear Motors with Encoders | 2 | $8.00 |
-| IMU / Gyroscope | MPU6050 / Gyro Sensor Module | 1 | $2.00 |
-| Motor Driver | TB6612FNG Dual Motor Driver Module | 1 | $2.50 |
-| 3D Printed Parts | Chassis, Impeller & Bracket (PLA/PETG) | 1 | $3.00 |
-| Wheels & Tires | High-traction mini wheels | 2 | $3.00 |
-| Battery | LiPo Battery Pack | 1 | $6.00 |
-| Total | | | ~$32.00 |
+thanks for reading, i think thats all i can do, i would be really happy if you approve it- also nothing here is AI Generated, i used AI just fore research and did everything myself i think. :) see you!!

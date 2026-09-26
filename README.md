@@ -24,7 +24,7 @@ The image below shows the layout of the custom PCB designed in KiCad:
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://github.com/alperenkko/Micromouse-Design-starter/blob/main/pcb/micromouse_pcb.kicad_pcb)
 
 ![PCB 3d view](pcb/pcb_3dside.png)
-![PCB Layout](pcb/pcb.png)
+![PCB Layout](pcb/pcb_schematic.png)
 
 ## Repository Structure
 `/cad` contains all STL files (chassis, impeller, and motor mounts)

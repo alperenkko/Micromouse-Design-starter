@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-This folder contains the complete Bill of Materials for the Micromouse project.
+This folder that i wrote  contains the complete Bill of Materials for the Micromouse project.
 The newer files contain the final versions such as the v2 design of the circuit, the newer BOM file and the new cart thats full of the new components!
 
 ### File Descriptions:

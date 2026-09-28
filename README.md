@@ -1,6 +1,6 @@
 # Micromouse - Autonomous Maze Solving Robot
 
-An autonomous Micromouse robot capable of navigating and solving a maze with high speed and efficiency with custom 3D-printed suction components.
+An autonomous Micromouse robot that is  capable of navigating and solving a maze with high speed and efficiency with custom 3D-printed suction components.
 
 ![Micromouse CAD Preview](cad/micromice_lightning.png)
 ---
@@ -20,6 +20,7 @@ Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor con
 ## Hardware & PCB Design
 
 The image below shows the layout of the custom PCB designed in KiCad:
+(it was so hard to do those since it was my first time lol)
 
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://github.com/alperenkko/Micromouse-Design-starter/blob/main/pcb/micromouse_pcb.kicad_pcb)
 

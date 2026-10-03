@@ -34,9 +34,10 @@ The image below shows the layout of the custom PCB designed in KiCad:
 ---
 
 ## Bill of Materials (BOM)
-[BOM.csv](bom/BOM.csv) - The main BOM file
-[BOM.csv](bom/BOM_ozdisan.csv)  - The BOM file for the custom IR sensor
-[BOM.csv](bom/BOM_ozdisan.pdf)  - The pdf version of the IR sensor file.(downloaded from the website, its raw and half turkish.)
+- [BOM.csv](bom/BOM.csv) - The main BOM file 
+- [BOM_ozdisan.csv](bom/BOM_ozdisan.csv) - The BOM file for the custom IR sensor 
+- [BOM_ozdisan.pdf](bom/BOM_ozdisan.pdf) - The PDF version / datasheet for the custom IR sensor (The pdf version of the IR sensor file.(downloaded from the website, its raw and half turkish.)
+
 
 ## /firmware folder
 the code uses the STM32 library on ArduınoIDE to code the blackpill board using arduino IDE. heres the link of the library so you can download it too:

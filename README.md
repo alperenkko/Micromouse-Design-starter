@@ -21,7 +21,7 @@ Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor con
 
 The image below shows the layout of the custom PCB designed in KiCad:
 (it was so hard to do those since it was my first time lol)
-
+---
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://github.com/alperenkko/Micromouse-Design-starter/blob/main/pcb/micromouse_pcb.kicad_pcb)
 
 ![PCB 3d view](pcb/pcb_3dside.png)
@@ -29,13 +29,19 @@ The image below shows the layout of the custom PCB designed in KiCad:
 
 ## Repository Structure
 `/cad` contains all STL files (chassis, impeller, and motor mounts)
-`/pcb` contains the KiCad schematic and PCB board file.
-`/firmware` contains the STM32 source-code for PID motor control, IR sensing and the Floodfill algorithm.
+`/pcb` contains the KiCad schematic and PCB board file such as png and .kicad files.
+`/firmware` contains the STM32 source-code for PID motor control, IR sensing and the Floodfill algorithm(read down there)
 ---
 
 ## Bill of Materials (BOM)
 [BOM.csv](bom/BOM.csv) - The main BOM file
 [BOM.csv](bom/BOM_ozdisan.csv)  - The BOM file for the custom IR sensor
 [BOM.csv](bom/BOM_ozdisan.pdf)  - The pdf version of the IR sensor file.(downloaded from the website, its raw and half turkish.)
+
+## /firmware folder
+the code uses the STM32 library on ArduınoIDE to code the blackpill board using arduino IDE. heres the link of the library so you can download it too:
+https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
+also, dont forget that thisa was just  a test code and NOT  the actual code since this is still in the design.
+---
 
 thanks for reading, i think thats all i can do, i would be really happy if you approve it- also nothing here is AI Generated, i used AI just fore research and did everything myself i think. :) see you!!

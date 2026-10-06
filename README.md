@@ -5,16 +5,17 @@ An autonomous Micromouse robot that is  capable of navigating and solving a maze
 ![Micromouse CAD Preview](cad/micromice_lightning.png)
 ---
 
-## Motivation & Project Goal
-I am an 11th-grade student at a Turkish high school with interests in robotics and PCB design. I created this project over the course of the past three months to test my knowledge of control systems, algorithms, and my own custom hardware design capabilities. My goal is to design and make a high-performance Micromouse robot that is capable of competing against the fastest Maze Solving Robots with the help of suction assistance, and optimized algorithms.
+## Features
+The Complex algorithms, the PID tuning and 6 Fully-Custom IR sensors. It compares the value between two sensors to center itself in the middle of the maze cell. theres 2 side (90°) and 2 front (0°) sensors that it can use(2 corner sensors too). Also, it uses a complex algorithm that even has floodfill implemented inside to find the closest/most efficient exit possible. When tuned right with the PID and the signal values such as sensor values and PWM for the motors, this robot can slide in mazes like a wet soap in your hand, but with one exception; theres no crashes that make you sad!
 ---
 
-## Features & Technical Overview
-Autonomous Navigation: Implemented the Floodfill Algorithm for calculating the shortest maze path
-Closed-Loop Control: PID control with motor encoders and 6-axis gyroscope for precise wall centering and 90-degree turns.
-Custom Sensing: Integrated 6 custom IR sensor modules for distance calculation and wall tracking(check kicad file)
-Aerodynamic Suction: Custom 3D-printed impeller and mount (designed in Fusion 360) to create additional downforce
-Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor control
+## Technical Overview
+Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor control,
+Motors: N20 12mm 2000rpm encoder motors.
+Wheels: 21x14mm jsumo silicone wheels for maximum grab and control over the corner-turns.
+motor drivers: TB66FNG motor driver
+Impeller fan: 720 coreless motor and 30-mm wide 9-wing impeller for ~50gr of suction power
+6 Fully-Custom IR sensors: They work in analog voltage so you can sense even one centimeter if you make it good enough!💯
 ---
 
 ## Hardware & PCB Design

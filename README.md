@@ -35,7 +35,7 @@ You can see the PCB below:
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://github.com/alperenkko/Micromouse-Design-starter/blob/main/pcb/micromouse_pcb.kicad_pcb)
 
 
-<img src="pcb/pcb_3dside.png" alt="PCB Overview" width="500"> <img src="pcb/pcb_schematic.png" alt="Layout Overview" width="500">
+<img src="pcb/pcb_3dside.png" alt="PCB Overview" width="500"> <img src="pcb/pcb_layout.png" alt="Layout Overview" width="500">
 ## Schematics 
 
 The schematics was designed in kicad. Conn_xx-xx connectors were used to take place of the custom parts such as the motors.

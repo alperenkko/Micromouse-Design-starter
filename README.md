@@ -42,7 +42,7 @@ The schematics was designed in kicad. Conn_xx-xx connectors were used to take pl
 
 Image Below:
 
-<img src="pcb/pcb_schematic.png" alt="Schematic Overview" width="800">
+<img src="pcb/schematic_preview.png" alt="Schematic Overview" width="1000">
 
 # CAD & Mechanical Designs of the Project Micromouse
 

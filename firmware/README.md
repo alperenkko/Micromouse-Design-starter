@@ -1,1 +1,0 @@
-This Readme File is made for the /firmware folder. in this folder, you can see the skeleton of the code that i will use on the robot. its on .ino format so it uses ArduinoIDE program. i downloaded the library for the stm32 boards to test this on. thanks for reading.

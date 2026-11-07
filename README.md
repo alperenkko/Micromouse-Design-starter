@@ -4,51 +4,56 @@ An autonomous Micromouse robot that is  capable of navigating and solving a maze
 
 ![Micromouse CAD Preview](cad/micromice_lightning.png)
 
----
+## Required Library Setup 
 
-## Features
-The Complex algorithms, the PID tuning and 6 Fully-Custom IR sensors. It compares the value between two sensors to center itself in the middle of the maze cell. theres 2 side (90°) and 2 front (0°) sensors that it can use(2 corner sensors too). Also, it uses a complex algorithm that even has floodfill implemented inside to find the closest/most efficient exit possible. When tuned right with the PID and the signal values such as sensor values and PWM for the motors, this robot can slide in mazes like a wet soap in your hand, but with one exception; theres no crashes that make you sad!
+Go to  File-> Preferences-> Additional Boards Manager URL in Arduino IDE and paste the link below:
+https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
 
----
+## Key Features
+
+* 6 Fully Custom-Designed IR sensors
+* Custom made PCB  compatible with the STM32 Blackpill including the already-made pin layout for all components and the components for the IR sensor circuit
+* Advanced PID for wall centering, soft turns, path smoothing and other features
+* STM32 Blackpill board 
+* 3D printed Case with 6 sensor brackets and motor holders with 2 layers, weighhing about ~50 Grams (The impeller suction force nearly eliminates the weight of the chassis in turns and adds more grip on straight runs.)
+
 
 ## Technical Overview
-Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor control,
-Motors: N20 12mm 2000rpm encoder motors.
+Brain: STM32 Blackpill Microcontroller for sensor data acquisition and motor control.
+Motors: N20 12mm 2000rpm motors with built in encoders.
 Wheels: 21x14mm jsumo silicone wheels for maximum grab and control over the corner-turns.
-motor drivers: TB66FNG motor driver
+Motor drivers: TB66FNG motor driver for the impeller and the motors
 Impeller fan: 720 coreless motor and 30-mm wide 9-wing impeller for ~50gr of suction power
-6 Fully-Custom IR sensors: They work in analog voltage so you can sense even one centimeter if you make it good enough!💯
+6 Fully-Custom IR sensors: Working in analog with op-amps for noise eliminating and voltage amplifying
 
----
 
 ## Hardware & PCB Design
 
-The image below shows the layout of the custom PCB designed in KiCad:
-(it was so hard to do those since it was my first time lol)
----
+The PCB was designed in kicad With the help of datasheets of the components.
+You can see the PCB below:
+
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://github.com/alperenkko/Micromouse-Design-starter/blob/main/pcb/micromouse_pcb.kicad_pcb)
 
-![PCB 3d view](pcb/pcb_3dside.png)
-![PCB Layout](pcb/pcb_schematic.png)
 
+<img src="pcb/pcb_3dside.png" alt="PCB Overview" width="500"> <img src="pcb/pcb_schematic.png" alt="Layout Overview" width="500">
+## Sxhematics 
+
+The schematics was designed in kicad. Conn_xx-xx connectors were used to take place of the custom parts such as the motors.
+
+Image Below:
+<img src="pcb/pcb_schematic.png" alt="Schematic Overview" width="400">
 ## Repository Structure
 `/cad` contains all STL files (chassis, impeller, and motor mounts)
 `/pcb` contains the KiCad schematic and PCB board file such as png and .kicad files.
 `/firmware` contains the STM32 source-code for PID motor control, IR sensing and the Floodfill algorithm(read down there)
 
----
 
-## Bill of Materials (BOM)
+
+## Bill of Materials (BOM) files
 - [BOM.csv](bom/BOM.csv) - The main BOM file 
 - [BOM_ozdisan.csv](bom/BOM_ozdisan.csv) - The BOM file for the custom IR sensor 
 - [BOM_ozdisan.pdf](bom/BOM_ozdisan.pdf) - The PDF version / datasheet for the custom IR sensor (The pdf version of the IR sensor file.(downloaded from the website, its raw and half turkish.)
 
 
 ## /firmware folder
-the code uses the STM32 library on ArduınoIDE to code the blackpill board using arduino IDE. heres the link of the library so you can download it too:
-https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
-also, dont forget that this is just  a test/first code and NOT  the actual code since this project is still in the design.
 
----
-
-thanks for reading, i think thats all i can do, i would be really happy if you approve it- also nothing here is AI Generated, i used AI just fore research and did everything myself. :) see you!!

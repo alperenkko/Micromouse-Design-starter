@@ -36,15 +36,19 @@ You can see the PCB below:
 
 
 <img src="pcb/pcb_3dside.png" alt="PCB Overview" width="500"> <img src="pcb/pcb_schematic.png" alt="Layout Overview" width="500">
-## Sxhematics 
+## Schematics 
 
 The schematics was designed in kicad. Conn_xx-xx connectors were used to take place of the custom parts such as the motors.
 
 Image Below:
-<img src="pcb/pcb_schematic.png" alt="Schematic Overview" width="400">
+
+<img src="pcb/pcb_schematic.png" alt="Schematic Overview" width="800">
+
 ## Repository Structure
 `/cad` contains all STL files (chassis, impeller, and motor mounts)
+
 `/pcb` contains the KiCad schematic and PCB board file such as png and .kicad files.
+
 `/firmware` contains the STM32 source-code for PID motor control, IR sensing and the Floodfill algorithm(read down there)
 
 
@@ -54,6 +58,4 @@ Image Below:
 - [BOM_ozdisan.csv](bom/BOM_ozdisan.csv) - The BOM file for the custom IR sensor 
 - [BOM_ozdisan.pdf](bom/BOM_ozdisan.pdf) - The PDF version / datasheet for the custom IR sensor (The pdf version of the IR sensor file.(downloaded from the website, its raw and half turkish.)
 
-
-## /firmware folder
 

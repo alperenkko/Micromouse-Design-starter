@@ -34,6 +34,10 @@ You can see the PCB below:
 
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://github.com/alperenkko/Micromouse-Design-starter/blob/main/pcb/micromouse_pcb.kicad_pcb)
 
+### How Does everything fit together??
+
+On the 3D printed case, all of the modules and the custom IR sensor module connects to each other via headers and cables. everything sticks on the body with hot glue and double sided tape except the impeller, which  gets into the place using 3 M3 screws. the body is made from 2 layers of 3d printed plastic.
+
 
 <img src="pcb/pcb_3dside.png" alt="PCB Overview" width="500"> <img src="pcb/pcb_layout.png" alt="Layout Overview" width="500">
 ## Schematics 
